@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284FB3D01F6914F300FADF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3CF1F6914F300FADF95 /* AppDelegate.swift */; };
+		28269D701F7FA00D00BE408B /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28269D6F1F7FA00D00BE408B /* PickerController.swift */; };
+		2841D8261F6E2968000619E8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8251F6E2968000619E8 /* Rectangle.swift */; };
+		2841D8281F6E2BFB000619E8 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8271F6E2BFB000619E8 /* Square.swift */; };
+		2841D82A1F6E2D04000619E8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8291F6E2D04000619E8 /* Triangle.swift */; };
 		284FB3D21F6914F300FADF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3D11F6914F300FADF95 /* ViewController.swift */; };
 		284FB3D51F6914F300FADF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3D31F6914F300FADF95 /* Main.storyboard */; };
 		284FB3D71F6914F300FADF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3D61F6914F300FADF95 /* Assets.xcassets */; };
@@ -16,9 +19,19 @@
 		284FB3E51F6914F300FADF95 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3E31F6914F300FADF95 /* Interface.storyboard */; };
 		284FB3E71F6914F300FADF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3E61F6914F300FADF95 /* Assets.xcassets */; };
 		284FB3EE1F6914F300FADF95 /* SquareBall WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 284FB3ED1F6914F300FADF95 /* SquareBall WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		284FB3F31F6914F300FADF95 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3F21F6914F300FADF95 /* InterfaceController.swift */; };
 		284FB3F51F6914F300FADF95 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3F41F6914F300FADF95 /* ExtensionDelegate.swift */; };
 		284FB3F71F6914F300FADF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3F61F6914F300FADF95 /* Assets.xcassets */; };
+		28A412511F75F903003D3C18 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284FB3E31F6914F300FADF95 /* Interface.storyboard */; };
+		28C517C11F7524D000C458E2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3F21F6914F300FADF95 /* InterfaceController.swift */; };
+		28C517C21F7524FB00C458E2 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8251F6E2968000619E8 /* Rectangle.swift */; };
+		28C517C31F7524FE00C458E2 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8271F6E2BFB000619E8 /* Square.swift */; };
+		28C517C41F75250200C458E2 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841D8291F6E2D04000619E8 /* Triangle.swift */; };
+		28C517C51F75252E00C458E2 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B00171F6CC2C400889BFA /* Ball.swift */; };
+		28C517C61F75252F00C458E2 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B00171F6CC2C400889BFA /* Ball.swift */; };
+		28E008921F7E4DB000B85696 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E008901F7E4CCA00B85696 /* Shape.swift */; };
+		28E008941F7E5AAF00B85696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FB3CF1F6914F300FADF95 /* AppDelegate.swift */; };
+		28E7D3591F767F4E003ED356 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7D3581F767F4E003ED356 /* Pie.swift */; };
+		28E7D35A1F768658003ED356 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7D3581F767F4E003ED356 /* Pie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +77,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28269D6F1F7FA00D00BE408B /* PickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		2841D8251F6E2968000619E8 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		2841D8271F6E2BFB000619E8 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		2841D8291F6E2D04000619E8 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		284FB3CC1F6914F300FADF95 /* SquareBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284FB3CF1F6914F300FADF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284FB3D11F6914F300FADF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +97,9 @@
 		284FB3F41F6914F300FADF95 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		284FB3F61F6914F300FADF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284FB3F81F6914F300FADF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285B00171F6CC2C400889BFA /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ball.swift; path = ../../Koulu_1/MovingBallsWithFinger/MovingBallsWithFinger/Ball.swift; sourceTree = "<group>"; };
+		28E008901F7E4CCA00B85696 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		28E7D3581F767F4E003ED356 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +143,18 @@
 		284FB3CE1F6914F300FADF95 /* SquareBall */ = {
 			isa = PBXGroup;
 			children = (
+				285B00171F6CC2C400889BFA /* Ball.swift */,
+				28E7D3581F767F4E003ED356 /* Pie.swift */,
+				2841D8251F6E2968000619E8 /* Rectangle.swift */,
+				2841D8271F6E2BFB000619E8 /* Square.swift */,
+				2841D8291F6E2D04000619E8 /* Triangle.swift */,
 				284FB3CF1F6914F300FADF95 /* AppDelegate.swift */,
 				284FB3D11F6914F300FADF95 /* ViewController.swift */,
 				284FB3D31F6914F300FADF95 /* Main.storyboard */,
 				284FB3D61F6914F300FADF95 /* Assets.xcassets */,
 				284FB3D81F6914F300FADF95 /* LaunchScreen.storyboard */,
 				284FB3DB1F6914F300FADF95 /* Info.plist */,
+				28E008901F7E4CCA00B85696 /* Shape.swift */,
 			);
 			path = SquareBall;
 			sourceTree = "<group>";
@@ -147,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				284FB3F21F6914F300FADF95 /* InterfaceController.swift */,
+				28269D6F1F7FA00D00BE408B /* PickerController.swift */,
 				284FB3F41F6914F300FADF95 /* ExtensionDelegate.swift */,
 				284FB3F61F6914F300FADF95 /* Assets.xcassets */,
 				284FB3F81F6914F300FADF95 /* Info.plist */,
@@ -218,7 +245,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Tapio;
+				ORGANIZATIONNAME = "Tapio Paloniemi";
 				TargetAttributes = {
 					284FB3CB1F6914F300FADF95 = {
 						CreatedOnToolsVersion = 9.0;
@@ -275,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A412511F75F903003D3C18 /* Interface.storyboard in Resources */,
 				284FB3F71F6914F300FADF95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2841D8281F6E2BFB000619E8 /* Square.swift in Sources */,
+				2841D8261F6E2968000619E8 /* Rectangle.swift in Sources */,
+				28E7D3591F767F4E003ED356 /* Pie.swift in Sources */,
+				2841D82A1F6E2D04000619E8 /* Triangle.swift in Sources */,
+				28E008941F7E5AAF00B85696 /* AppDelegate.swift in Sources */,
 				284FB3D21F6914F300FADF95 /* ViewController.swift in Sources */,
-				284FB3D01F6914F300FADF95 /* AppDelegate.swift in Sources */,
+				28C517C61F75252F00C458E2 /* Ball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C517C51F75252E00C458E2 /* Ball.swift in Sources */,
+				28C517C31F7524FE00C458E2 /* Square.swift in Sources */,
+				28C517C21F7524FB00C458E2 /* Rectangle.swift in Sources */,
+				28C517C41F75250200C458E2 /* Triangle.swift in Sources */,
+				28269D701F7FA00D00BE408B /* PickerController.swift in Sources */,
+				28E7D35A1F768658003ED356 /* Pie.swift in Sources */,
 				284FB3F51F6914F300FADF95 /* ExtensionDelegate.swift in Sources */,
-				284FB3F31F6914F300FADF95 /* InterfaceController.swift in Sources */,
+				28C517C11F7524D000C458E2 /* InterfaceController.swift in Sources */,
+				28E008921F7E4DB000B85696 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +562,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RJS784HQ3V;
 				INFOPLIST_FILE = SquareBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tapio.SquareBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,6 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RJS784HQ3V;
 				INFOPLIST_FILE = SquareBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tapio.SquareBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -563,6 +605,7 @@
 				284FB3FD1F6914F300FADF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		284FB3FF1F6914F300FADF95 /* Build configuration list for PBXNativeTarget "SquareBall WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +614,7 @@
 				284FB4011F6914F300FADF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		284FB4031F6914F300FADF95 /* Build configuration list for PBXNativeTarget "SquareBall" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +623,7 @@
 				284FB4051F6914F300FADF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
